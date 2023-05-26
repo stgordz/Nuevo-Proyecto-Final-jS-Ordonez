@@ -26,7 +26,7 @@ class ProductoController {
     //subir productos a archivo
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "Baterias EFEST", 3000, 10, "../img/baterias/baterias-01.png"),
+            new Producto(1, "Baterias EFEST", 3000, 10, "../img/baterias/baterias-01.PNG"),
             new Producto(2, "Baterias VAPCE", 2500, 10, "../img/baterias/baterias-01.png"),
             new Producto(3, "Vaporesso SKY Solo", 6000, 10, "../img/equipos/equipos-01.png"),
             new Producto(4, "Aeglos P1", 13000, 10, "../img/equipos/equipos-02.png"),
