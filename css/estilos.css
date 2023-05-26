@@ -275,6 +275,17 @@ img {
 .contenedor_productos {
   text-align: center; }
 
+main .productos div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column; }
+
+.text-center {
+  color: black; }
+
 * {
   color: black; }
 
@@ -288,6 +299,13 @@ img {
 
 p#precio_total {
   padding: 20px; }
+
+.text-center {
+  color: #000;
+  background: white; }
+
+h2 {
+  color: black; }
 
 footer div a {
   text-decoration: none;
@@ -304,7 +322,7 @@ footer div a {
       transform: scale(1.3); }
 
 .text-center {
-  color: white;
+  color: black;
   background: white; }
 
 @media screen and (max-width: 900px) {

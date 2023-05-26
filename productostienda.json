@@ -5,7 +5,7 @@
         "cantidad": 1,
         "precio": 3000,
         "stock": 10,
-        "img": "./img/baterias/baterias-01.png"
+        "img": "./img/brands/baterias-01.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "cantidad": 1,
         "precio": 2500,
         "stock": 10,
-        "img": "./img/baterias/baterias-01.png"
+        "img": "./img/brands/baterias-02.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "cantidad": 1,
         "precio": 6000,
         "stock": 10,
-        "img": "./img/equipos/equipos-01.png"
+        "img": "./img/brands/equipos-01.png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "cantidad": 1,
         "precio": 13000,
         "stock": 10,
-        "img": "./img/equipos/equipos-02.png"
+        "img": "./img/brands/equipos-02.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "cantidad": 1,
         "precio": 8000,
         "stock": 10,
-        "img": "./img/equipos/equipos-03.png"
+        "img": "./img/brands/equipos-03.png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "cantidad": 1,
         "precio": 3000,
         "stock": 10,
-        "img": "./img/liquidos/liquidos-01.jpg"
+        "img": "./img/brands/liquidos-01.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "cantidad": 1,
         "precio": 3000,
         "stock": 10,
-        "img": "./img/liquidos/liquidos-02.jpg"
+        "img": "./img/brands/liquidos-02.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "cantidad": 1,
         "precio": 3000,
         "stock": 10,
-        "img": "./img/liquidos/liquidos-03.jpg"
+        "img": "./img/brands/liquidos-03.jpg"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "cantidad": 1,
         "precio": 2500,
         "stock": 10,
-        "img": "./img/resistencias/resistencias-01.png"
+        "img": "./img/brands/resistencias-01.png"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "cantidad": 1,
         "precio": 2500,
         "stock": 10,
-        "img": "./img/resistencias/resistencias-02.png"
+        "img": "./img/brands/resistencias-02.png"
     },
     {
         "id": 11,
@@ -85,6 +85,6 @@
         "cantidad": 1,
         "precio": 2500,
         "stock": 10,
-        "img": "./img/resistencias/resistencias-03.png"
+        "img": "./img/brands/resistencias-03.png"
     }
 ]
