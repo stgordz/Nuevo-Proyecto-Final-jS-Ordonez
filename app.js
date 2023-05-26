@@ -26,17 +26,17 @@ class ProductoController {
     //subir productos a archivo
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "Baterias EFEST", 3000, 10, "./img/baterias/baterias-01.png"),
-            new Producto(2, "Baterias VAPCE", 2500, 10, "./img/baterias/baterias-01.png"),
+            new Producto(1, "Baterias EFEST", 3000, 10, "../img/baterias/baterias-01.png"),
+            new Producto(2, "Baterias VAPCE", 2500, 10, "../img/baterias/baterias-01.png"),
             new Producto(3, "Vaporesso SKY Solo", 6000, 10, "../img/equipos/equipos-01.png"),
-            new Producto(4, "Aeglos P1", 13000, 10, "./img/equipos/equipos-02.png"),
-            new Producto(5, "Wirhl POD", 8000, 10, "./img/equipos/equipos-03.png"),
-            new Producto(6, "Sales EVIL", 3000, 10, "./img/liquidos/liquidos-01.jpg"),
-            new Producto(7, "Liquidos EVIL", 3000, 10, "./img/liquidos/liquidos-02.jpg"),
-            new Producto(8, "Liquidos EVIL ICE", 3000, 10, "./img/liquidos/liquidos-03.jpg"),
-            new Producto(9, "Resistencias Vaporesso", 2500, 10, "./img/resistencias/resistencias-01.png"),
-            new Producto(10, "Cartuchos Vaporesso", 2500, 10, "./img/resistencias/resistencias-02.png"),
-            new Producto(11, "Resistencias Whirl", 2500, 10, "./img/resistencias/resistencias-03.png")
+            new Producto(4, "Aeglos P1", 13000, 10, "../img/equipos/equipos-02.png"),
+            new Producto(5, "Wirhl POD", 8000, 10, "../img/equipos/equipos-03.png"),
+            new Producto(6, "Sales EVIL", 3000, 10, "../img/liquidos/liquidos-01.jpg"),
+            new Producto(7, "Liquidos EVIL", 3000, 10, "../img/liquidos/liquidos-02.jpg"),
+            new Producto(8, "Liquidos EVIL ICE", 3000, 10, "../img/liquidos/liquidos-03.jpg"),
+            new Producto(9, "Resistencias Vaporesso", 2500, 10, "../img/resistencias/resistencias-01.png"),
+            new Producto(10, "Cartuchos Vaporesso", 2500, 10, "../img/resistencias/resistencias-02.png"),
+            new Producto(11, "Resistencias Whirl", 2500, 10, "../img/resistencias/resistencias-03.png")
         ]
     }
 
