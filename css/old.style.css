@@ -1,0 +1,408 @@
+/* RESET */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------ HEADER ------------*/
+header img {
+    width: 160px;
+    height: 120px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin:5px;
+    padding:1px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    transition: all 0.3s;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+header nav ul li :hover {
+    transform: scale(1.2)
+}
+/*------------ MAIN ------------*/
+.hero {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/hero-vapod.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    font-family: "there brat";
+    height: 70px;
+    margin: 30px;
+}
+.hero p {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: "coolvetica";
+    height: 20px;
+}
+header h1 {
+    font-size: 75px;
+    font-weight: 550;
+    text-align: center;
+    color: white;
+}
+.nosotros {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+.nosotros div {
+    width: 500px;
+    text-align:start;
+    margin:20px 20px;
+}
+.nosotros img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+.bienvenidos {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: justify;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+.bienvenidos div {
+    width: 500px;
+    text-align: start;
+    margin:20px 20px;
+}
+.bienvenidos img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.galeria {
+    background-color: white;
+    padding: 50px;
+}
+.galeria img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    transition: all 0.3s;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+.galeria img:hover {
+    transform: scale(1.3);
+}
+.galeria div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mapa {
+    width: 600px;
+    height: 450px;
+}
+.mapa iframe {
+    width: 80%;
+    height: 60%;
+}
+
+/*------------ FOOTER ------------*/
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+@media screen and (max-width:880px) {
+    footer div img{
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        flex-direction:row;
+    }
+}
+footer img {
+    width: 150px;
+    height: 110px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+    display: flex;
+    text-size-adjust: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+footer div img {
+    width: 30px;
+    height: 30px;
+}
+footer ul li {
+    color: black;
+    margin: 5px;
+    transition: all 0.3s;
+}
+footer ul li:hover {
+    transform: scale(1.2)
+}
+footer div img {
+    padding: 10px;
+    transition: all 0.3s;
+}
+footer div img:hover {
+    transform: scale(1.2)
+}
+footer div a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+/*------------ pages -> equipos ------------*/
+
+.equiposgaleria {
+    width: 100%;
+    height: auto;
+    /* grid-area: resistenciasgaleria; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin: 0%;
+    font-size: 20px;
+}
+.seccion-1 {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    align-self: center;
+    justify-self: center;
+    row-gap: 25px;
+    padding: 20px;
+}
+.seccion-1 div {
+    width: 300px;
+    height: auto;
+    box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+    -webkit-box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+    -moz-box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+    transition: all 0.3s;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    row-gap: 20px;
+    margin: 20px;
+}
+.seccion-1 div:hover {
+    transform: scale(1.1);
+}
+.seccion-1 div img {
+    width: 250px;
+    height: 250px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin: 15px;
+    padding: 15px;
+}
+.seccion-1 div a {
+    text-decoration: none;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+/*------------ pages -> resistencias ------------*/
+
+.resistenciasgaleria {
+    width: 100%;
+    height: auto;
+    /* grid-area: resistenciasgaleria; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin: 0%;
+    font-size: 20px;
+}
+
+/*------------ pages -> baterias ------------*/
+
+.bateriasgaleria {
+    width: 100%;
+    height: auto;
+    grid-area: bateriassgaleria;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin: 0%;
+    font-size: 20px;
+}
+/*------------ pages -> liquidos ------------*/
+
+.liquidosgaleria {
+    width: 100%;
+    height: auto;
+    grid-area: liquidosgaleria;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    margin: 0%;
+    font-size: 20px;
+}
+.formulario1 {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+}
+
+
+
+@media screen and (max-width:900px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:770px) {
+    .hero h1 {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:770px) {
+    .hero p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:770px) {
+    .nosotros  {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 40px;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:770px) {
+    .nosotros img {
+        width: 200px;
+        height: 125px;
+    }
+}
+@media screen and (max-width:770px) {
+    .bienvenidos  {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 40px;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:770px) {
+    .bienvenidos img {
+        width: 200px;
+        height: 125px;
+    }
+}
+@media screen and (max-width:900px) {
+    .mapa {
+        width: 450px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:880px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 960px) {
+    .seccion-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 475px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    .seccion-1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        align-self: center;
+        justify-self: center;
+    }
+}
+@media screen and (max-width:990px) {
+    .equiposgaleriag {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        flex-wrap: wrap;
+        flex-direction:row;
+        }
+    }
+

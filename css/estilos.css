@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  box-shadow: none; }
+
+.bateriasgaleria, .liquidosgaleria, .equiposgaleria, .resistenciasgaleria {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  margin: 0%;
+  font-size: 20px; }
+
+.bateriasgaleria .seccion-1, .liquidosgaleria .seccion-1, .equiposgaleria .seccion-1, .resistenciasgaleria .seccion-1 {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-self: center;
+  justify-self: center;
+  row-gap: 25px;
+  padding: 20px; }
+
+.bateriasgaleria .seccion-1 div, .liquidosgaleria .seccion-1 div, .equiposgaleria .seccion-1 div, .resistenciasgaleria .seccion-1 div {
+  width: 300px;
+  height: auto;
+  box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+  -webkit-box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+  -moz-box-shadow: 9px -4px 15px 15px rgba(212, 206, 206, 0.72);
+  transition: all 0.3s;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  row-gap: 20px;
+  margin: 20px; }
+
+.bateriasgaleria .seccion-1 div a, .liquidosgaleria .seccion-1 div a, .equiposgaleria .seccion-1 div a, .resistenciasgaleria .seccion-1 div a {
+  text-decoration: none;
+  display: grid;
+  justify-self: center;
+  align-self: center; }
+
+.bateriasgaleria .seccion-1 div a img, .liquidosgaleria .seccion-1 div a img, .equiposgaleria .seccion-1 div a img, .resistenciasgaleria .seccion-1 div a img {
+  width: 250px;
+  height: 250px;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  margin: 15px;
+  padding: 15px; }
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px; }
+  header a img {
+    width: 160px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    padding: 1px; }
+    header nav ul li:hover {
+      transform: scale(1.2); }
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+      margin: 10px;
+      padding: 10px;
+      transition: all 0.3s;
+      display: grid;
+      justify-self: center;
+      align-self: center;
+      background-color: black;
+      border: solid black 0.5px;
+      border-radius: 10%; }
+
+.fa-cart-shopping {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: white;
+  color: black; }
+
+.btn.btn-primary {
+  background-color: white;
+  color: white;
+  border-radius: 10px; }
+
+.btn-outline-primary, .btn-primary {
+  box-shadow: 0 0 2px #000000, 0 0 4px rgba(0, 0, 0, 0.4), 0 0 1rem rgba(255, 255, 255, 0.3), 0 0 4rem rgba(255, 255, 255, 0.1); }
+
+main .hero {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/hero-vapod.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  main .hero h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    height: 70px;
+    margin: 70px; }
+  main .hero p {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    height: 20px;
+    padding: 25px; }
+
+main .nosotros {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px; }
+  main .nosotros div {
+    width: 500px;
+    text-align: start;
+    margin: 20px 20px;
+    color: black; }
+  main .nosotros img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px; }
+
+main .bienvenidos {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: justify;
+  flex-direction: row-reverse;
+  padding: 40px; }
+  main .bienvenidos div {
+    width: 500px;
+    text-align: start;
+    margin: 20px 20px;
+    color: black; }
+  main .bienvenidos img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px; }
+
+main .galeria {
+  background-color: white;
+  padding: 50px;
+  text-align: center; }
+  main .galeria div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    main .galeria div img {
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+      transition: all 0.3s;
+      display: grid;
+      justify-self: center;
+      align-self: center; }
+      main .galeria div img:hover {
+        transform: scale(1.3); }
+
+main .productos {
+  background-color: white;
+  padding: 50px;
+  text-align: center; }
+  main .productos div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    main .productos div img {
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+      transition: all 0.3s;
+      display: grid;
+      justify-self: center;
+      align-self: center; }
+      main .productos div img:hover {
+        transform: scale(1.3); }
+
+.bateriasgaleria .seccion-1 div {
+  border-radius: 15px; }
+  .bateriasgaleria .seccion-1 div:hover {
+    transform: scale(1.1); }
+  .bateriasgaleria .seccion-1 div a img {
+    border-radius: 30px; }
+
+.liquidosgaleria .seccion-1 div {
+  border-radius: 15px; }
+  .liquidosgaleria .seccion-1 div:hover {
+    transform: scale(1.1); }
+  .liquidosgaleria .seccion-1 div a img {
+    border-radius: 30px; }
+
+.equiposgaleria .seccion-1 div {
+  border-radius: 15px; }
+  .equiposgaleria .seccion-1 div:hover {
+    transform: scale(1.1); }
+  .equiposgaleria .seccion-1 div a img {
+    border-radius: 30px; }
+
+.resistenciasgaleria .seccion-1 {
+  border-radius: 10px; }
+  .resistenciasgaleria .seccion-1 div {
+    border-radius: 15px; }
+    .resistenciasgaleria .seccion-1 div:hover {
+      transform: scale(1.1); }
+    .resistenciasgaleria .seccion-1 div a img {
+      border-radius: 30px; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  text-shadow: 0 0 1px rgba(50, 251, 227, 0), 0 0 3px rgba(8, 92, 83, 0), 0 0 0.5rem rgba(50, 251, 227, 0), 0 0 2rem rgba(50, 251, 227, 0); }
+
+.card.border-primary {
+  box-shadow: 0 0 2px rgba(110, 66, 193, 0), 0 0 4px rgba(110, 66, 193, 0), 0 0 1rem rgba(110, 66, 193, 0), 0 0 4rem rgba(110, 66, 193, 0); }
+
+.productos {
+  background-color: white; }
+
+.btn.btn-primary {
+  background-color: white; }
+
+.modal-content {
+  background-color: white; }
+
+.btn.btn-primary {
+  background-color: rgba(0, 0, 0, 0); }
+
+body {
+  background-image: linear-gradient(#fff 0, #fff 7%, #fff 80%, #fff 100%); }
+
+.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border-radius: 10px; }
+
+.modal-content {
+  box-shadow: none; }
+
+p#precio_total {
+  padding: 20px; }
+
+.card.border-primary {
+  border-radius: 20px;
+  color: black; }
+
+img {
+  border-radius: 20px;
+  padding: 10px;
+  border-color: black; }
+
+.contenedor_productos {
+  text-align: center; }
+
+* {
+  color: black; }
+
+.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border-radius: 10px; }
+
+.modal-content {
+  box-shadow: none; }
+
+p#precio_total {
+  padding: 20px; }
+
+footer div a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.3s; }
+  footer div a img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: all 0.3s; }
+    footer div a img:hover {
+      transform: scale(1.3); }
+
+.text-center {
+  color: white;
+  background: white; }
+
+@media screen and (max-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 850px) {
+  main .hero h1 {
+    font-size: 100px; } }
+
+@media screen and (max-width: 770px) {
+  main .hero p {
+    font-size: 40px; } }
+
+@media screen and (max-width: 770px) {
+  main .nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 40px;
+    align-content: stretch;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 770px) {
+  main .nosotros div img {
+    width: 200px;
+    height: 125px; } }
+
+@media screen and (max-width: 770px) {
+  main .bienvenidos {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 40px;
+    align-content: stretch;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 770px) {
+  main .bienvenidos div img {
+    width: 200px;
+    height: 125px; } }
+
+@media screen and (max-width: 900px) {
+  main .galeri .contacto .formulario .mapa {
+    width: 450px;
+    height: 300px; } }
+
+@media screen and (max-width: 880px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    flex-direction: row;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 960px) {
+  main .seccion-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 475px);
+    grid-template-rows: auto; } }
+
+@media screen and (max-width: 720px) {
+  main .seccion-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    align-self: center;
+    justify-self: center; } }
+
+@media screen and (max-width: 990px) {
+  .equiposgaleriag {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row; } }

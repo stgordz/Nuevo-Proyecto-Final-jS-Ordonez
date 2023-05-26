@@ -1,0 +1,93 @@
+@media screen and (max-width:900px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:850px) {
+    main .hero h1 {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:770px) {
+    main .hero p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:770px) {
+    main .nosotros  {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 40px;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:770px) {
+    main .nosotros div img {
+        width: 200px;
+        height: 125px;
+    }
+}
+@media screen and (max-width:770px) {
+    main .bienvenidos  {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 40px;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:770px) {
+    main .bienvenidos div img {
+        width: 200px;
+        height: 125px;
+    }
+}
+@media screen and (max-width:900px) {
+    main .galeri .contacto .formulario .mapa {
+        width: 450px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:880px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 960px) {
+    main .seccion-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 475px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    main .seccion-1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        align-self: center;
+        justify-self: center;
+    }
+}
+@media screen and (max-width:990px) {
+    .equiposgaleriag {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        flex-wrap: wrap;
+        flex-direction:row;
+        }
+    }

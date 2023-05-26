@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "nombre": "Baterias EFEST",
+        "cantidad": 1,
+        "precio": 3000,
+        "stock": 10,
+        "img": "../img/baterias/baterias-01.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Baterias VAPCE",
+        "cantidad": 1,
+        "precio": 2500,
+        "stock": 10,
+        "img": "../img/baterias/baterias-01.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Vaporesso SKY Solo",
+        "cantidad": 1,
+        "precio": 6000,
+        "stock": 10,
+        "img": "../img/equipos/equipos-01.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Vaporesso SKY Solo",
+        "cantidad": 1,
+        "precio": 13000,
+        "stock": 10,
+        "img": "../img/equipos/equipos-02.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Vaporesso SKY Solo",
+        "cantidad": 1,
+        "precio": 8000,
+        "stock": 10,
+        "img": "../img/equipos/equipos-03.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Sales EVIL",
+        "cantidad": 1,
+        "precio": 3000,
+        "stock": 10,
+        "img": "../img/liquidos/liquidos-01.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Sales EVIL",
+        "cantidad": 1,
+        "precio": 3000,
+        "stock": 10,
+        "img": "../img/liquidos/liquidos-02.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Sales EVIL",
+        "cantidad": 1,
+        "precio": 3000,
+        "stock": 10,
+        "img": "../img/liquidos/liquidos-03.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Resistencias Vaporesso",
+        "cantidad": 1,
+        "precio": 2500,
+        "stock": 10,
+        "img": "../img/resistencias/resistencias-01.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Cartuchos Vaporesso",
+        "cantidad": 1,
+        "precio": 2500,
+        "stock": 10,
+        "img": "../img/resistencias/resistencias-02.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Resistencias Whirl",
+        "cantidad": 1,
+        "precio": 2500,
+        "stock": 10,
+        "img": "../img/resistencias/resistencias-03.png"
+    }
+]

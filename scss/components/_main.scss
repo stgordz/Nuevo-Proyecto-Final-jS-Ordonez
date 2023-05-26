@@ -1,0 +1,248 @@
+main {
+    .hero {
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../img/hero-vapod.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        h1 {
+            color: white;
+            font-size: 150px;
+            text-align: center;
+            height: 70px;
+            margin: 70px;
+        }
+        p {
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            height: 20px;
+            padding: 25px;
+        }
+    }
+    .nosotros {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 40px;
+        div {
+            width: 500px;
+            text-align: start;
+            margin: 20px 20px;
+            color: black;
+            
+        }
+        img {
+            width: 400px;
+            height: 250px;
+            border-radius: 15px;
+        }
+    }
+
+    .bienvenidos {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: justify;
+        flex-direction: row-reverse;
+        padding: 40px;
+        div {
+            width: 500px;
+            text-align: start;
+            margin: 20px 20px;
+            color: black;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+        }
+    }
+    .galeria {
+        background-color: white;
+        padding: 50px;
+        text-align: center;
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            img {
+                width: 200px;
+                height: 200px;
+                margin: 5px;
+                transition: all 0.3s;
+                display: grid;
+                justify-self: center;
+                align-self: center;
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+    .productos {
+        background-color: white;
+        padding: 50px;
+        text-align: center;
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            img {
+                width: 200px;
+                height: 200px;
+                margin: 5px;
+                transition: all 0.3s;
+                display: grid;
+                justify-self: center;
+                align-self: center;
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+    }
+    .bateriasgaleria {
+        @extend %div-galeria;
+        .seccion-1 {
+            @extend %secciones;
+            div {
+                border-radius: 15px;
+                @extend %div-secciones;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                a {
+                    @extend %link-secciones;
+                    img {
+                        border-radius: 30px;
+                        @extend %img-secciones
+                    }
+                }
+            }
+        }
+    }
+    .liquidosgaleria{
+        @extend %div-galeria;
+        .seccion-1 {
+            @extend %secciones;
+            div {
+                border-radius: 15px;
+                @extend %div-secciones;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                a {
+                    @extend %link-secciones;
+                    img {
+                        border-radius: 30px;
+                        @extend %img-secciones
+                    }
+                }
+            }
+        }
+    }
+    .equiposgaleria{
+        @extend %div-galeria;
+        .seccion-1 {
+            @extend %secciones;
+            div {
+                border-radius: 15px;
+                @extend %div-secciones;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                a {
+                    @extend %link-secciones;
+                    img {
+                        border-radius: 30px;
+                        @extend %img-secciones
+                    }
+                }
+            }
+        }
+    }
+    .resistenciasgaleria{
+        @extend %div-galeria;
+        .seccion-1 {
+            @extend %secciones;
+            border-radius: 10px;
+            div {
+                border-radius: 15px;
+                @extend %div-secciones;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                a {
+                    @extend %link-secciones;
+                    img {
+                        border-radius: 30px;
+                        @extend %img-secciones
+                    }
+                }
+            }
+        }
+    }
+
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+        text-shadow: 0 0 1px rgba(50, 251, 227, 0), 0 0 3px rgba(8, 92, 83, 0), 0 0 0.5rem rgba(50, 251, 227, 0), 0 0 2rem rgba(50, 251, 227, 0);
+    }
+
+    .card.border-primary {
+        box-shadow: 0 0 2px rgba(110, 66, 193, 0), 0 0 4px rgba(110, 66, 193, 0), 0 0 1rem rgba(110, 66, 193, 0), 0 0 4rem rgba(110, 66, 193, 0);
+    }
+    .productos{
+        background-color: white;
+    }
+
+    .btn.btn-primary {
+        background-color: rgb(255, 255, 255);}
+
+        .modal-content {
+            background-color: white;}
+
+            .btn.btn-primary {
+                background-color: rgba(0,0,0,0);}
+
+                body {
+                    background-image: linear-gradient(#fff 0,#fff 7%,#fff 80%,#fff 100%);}
+
+
+                    .btn.btn-primary {
+                        background-color: white;
+                        color: black;
+                        border-radius: 10px;}
+                    
+                        .modal-content {
+                            box-shadow: none;}
+                    
+                    p#precio_total{
+                        padding: 20px;
+                    }
+
+
+
+                    .card.border-primary {
+                        border-radius: 20px;
+                        color: black;}
+                        img{
+                            border-radius: 20px;
+                            padding: 10px;
+                            border-color: black;
+                        }
+
+                        .contenedor_productos{
+                            text-align: center;
+                        }
