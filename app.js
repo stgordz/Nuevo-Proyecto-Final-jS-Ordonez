@@ -41,7 +41,6 @@ class ProductoController {
     }
 
     mostrarEnDOM() {
-        //Mostramos los productos en DOM de manera dinamica
         this.listaProductos.forEach(producto => {
             this.contenedor_productos.innerHTML += `
             <div class="card border-primary" style="width: 18rem;">
@@ -63,16 +62,6 @@ class ProductoController {
                 controladorCarrito.agregar(producto)
                 controladorCarrito.guardarEnStorage()
                 controladorCarrito.mostrarEnDOM(contenedor_carrito)
-
-                Toastify({
-                    text: `${producto.nombre} añadido!`,
-                    duration: 3000,
-                    gravity: "bottom",
-                    position: "right",
-                    style: {
-                        background: "linear-gradient(to right, #00b09b, #96c93d)",
-                    }
-                }).showToast();
             })
         })
     }
@@ -123,7 +112,7 @@ class CarritoController {
     }
 
     limpiarContenedor_Carrito() {
-        //limpio el contenedor para recorrer todo el arreglo y no se repita sin querer los productos.
+
         this.contenedor_carrito.innerHTML = ""
     }
 
