@@ -166,8 +166,6 @@ controladorProductos.levantar_y_mostrar(controladorCarrito)
 controladorCarrito.verificarExistenciaEnStorage()
 const finalizar_compra = document.getElementById("finalizar_compra")
 
-
-
 finalizar_compra.addEventListener("click", () => {
     Swal.fire({
         position: 'center',
